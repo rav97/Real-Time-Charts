@@ -63,8 +63,8 @@ The work on the preparation of the program consisted of the following activities
 
 Action | Time
 ------------- | -------------
-Gathering necessary information. | 45 min
-Programming function drawing in real time. | 25 min
-Additional functionality. | 15 min
-Error protection. | 15 min
+Gathering necessary information. | 45 minutes
+Programming function drawing in real time. | 25 minutes
+Additional functionality. | 15 minutes
+Error protection. | 15 minutes
 Testing. | 30 minutes
