@@ -29,6 +29,7 @@ Czynność | Czas
 ------------- | -------------
 Zapoznanie się z poleceniem i zebranie niezbędnych informacji.  | 45 min
 Zaprogramowanie rysowania funkcji w czasie rzeczywistym.  | 25 min
+Dodatkowa funkcjonalność. | 15 min
 Zabezpieczenie programu przed błędami. | 15 min
 Testy. | 30 min
 
@@ -64,5 +65,6 @@ Action | Time
 ------------- | -------------
 Gathering necessary information. | 45 min
 Programming function drawing in real time. | 25 min
+Additional functionality. | 15 min
 Error protection. | 15 min
 Testing. | 30 minutes
