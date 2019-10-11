@@ -33,6 +33,7 @@ Dodatkowa funkcjonalność. | 15 min
 Zabezpieczenie programu przed błędami. | 15 min
 Testy. | 30 min
 
+----
 
 # Real-time Charts
 This program is designed to draw real-time graphs of the function Sin (t), where t is the time expressed in seconds from the moment the program is started, and the Gaussian noise imposed on it. Program written using C # language and the Windows Forms API.
