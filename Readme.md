@@ -40,7 +40,7 @@ This program is designed to draw real-time graphs of the function Sin (t), where
 ### Tools
 + Visual Studio 2017
 
-###Libraries
+### Libraries
 + .Net Framework 4.7.2
 + [MathNet.Numerics.Distributions] (https://numerics.mathdotnet.com/api/MathNet.Numerics.Distributions/)
 
