@@ -28,10 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series6 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.Chart = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.button1 = new System.Windows.Forms.Button();
             this.AmplitudeTextBox = new System.Windows.Forms.TextBox();
@@ -45,23 +45,23 @@
             // 
             // Chart
             // 
-            chartArea3.Name = "ChartArea1";
-            this.Chart.ChartAreas.Add(chartArea3);
-            legend3.Name = "Legend1";
-            this.Chart.Legends.Add(legend3);
+            chartArea1.Name = "ChartArea1";
+            this.Chart.ChartAreas.Add(chartArea1);
+            legend1.Name = "Legend1";
+            this.Chart.Legends.Add(legend1);
             this.Chart.Location = new System.Drawing.Point(12, 12);
             this.Chart.Name = "Chart";
-            series5.ChartArea = "ChartArea1";
-            series5.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series5.Legend = "Legend1";
-            series5.Name = "Sin(t)";
-            series5.XValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.Time;
-            series6.ChartArea = "ChartArea1";
-            series6.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series6.Legend = "Legend1";
-            series6.Name = "Sin(t)+Gaussian Noise";
-            this.Chart.Series.Add(series5);
-            this.Chart.Series.Add(series6);
+            series1.ChartArea = "ChartArea1";
+            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series1.Legend = "Legend1";
+            series1.Name = "A*Sin(t)";
+            series1.XValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.Time;
+            series2.ChartArea = "ChartArea1";
+            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series2.Legend = "Legend1";
+            series2.Name = "A*Sin(t)+Gaussian Noise";
+            this.Chart.Series.Add(series1);
+            this.Chart.Series.Add(series2);
             this.Chart.Size = new System.Drawing.Size(856, 374);
             this.Chart.TabIndex = 0;
             this.Chart.Text = "chart1";
@@ -84,7 +84,7 @@
             this.AmplitudeTextBox.Name = "AmplitudeTextBox";
             this.AmplitudeTextBox.Size = new System.Drawing.Size(93, 20);
             this.AmplitudeTextBox.TabIndex = 2;
-            this.AmplitudeTextBox.Text = "1";
+            this.AmplitudeTextBox.Text = "3";
             this.AmplitudeTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.AmplitudeTextBox.TextChanged += new System.EventHandler(this.AmplitudeTextBox_TextChanged);
             // 
@@ -124,7 +124,7 @@
             this.StdDevTextBox.Name = "StdDevTextBox";
             this.StdDevTextBox.Size = new System.Drawing.Size(90, 20);
             this.StdDevTextBox.TabIndex = 6;
-            this.StdDevTextBox.Text = "0,3";
+            this.StdDevTextBox.Text = "1";
             this.StdDevTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.StdDevTextBox.TextChanged += new System.EventHandler(this.StdDevTextBox_TextChanged);
             // 
