@@ -55,7 +55,7 @@ The program generates a real-time graph of the Sin (t) function and the Gaussian
 3. It is possible to modify the amplitude, average and standard deviation of the generated graphs.
 
 ## Appearance of the program
-! [] (Https://i.ibb.co/RT47p30/Realt-time-charts.png)
+![](https://i.ibb.co/RT47p30/Realt-time-charts.png)
 
 ## Time spent working on the program
 The work on the preparation of the program consisted of the following activities and required work input, respectively:
