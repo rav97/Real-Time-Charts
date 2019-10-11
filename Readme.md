@@ -1,28 +1,28 @@
-#Real-time Charts
+# Real-time Charts
 Powyższy program ma za zadanie rysować w czasie rzeczywistym wykresy funkcji Sin(t), gdzie t oznacza czas wyrażony w sekundach od momentu uruchomienia programu, oraz nałożony na nią szum o rozkładzie Gaussa. Program napisany przy użyciu języka C# oraz API Windows Forms.
 
-##Wykorzystane narzędzia i biblioteki
-###Narzędzia
+## Wykorzystane narzędzia i biblioteki
+### Narzędzia
 + Visual Studio 2017
 
-###Biblioteki
+### Biblioteki
 + .Net Framework 4.7.2
 + [MathNet.Numerics.Distributions](https://numerics.mathdotnet.com/api/MathNet.Numerics.Distributions/)
 
-##Kompilacja i uruchomienie
+## Kompilacja i uruchomienie
 W celu uruchomienia programu, sklonuj lub pobierz repozytorium, a następnie uruchom w środowisku Visual Studio 2017 lub nowszym. Upewnij się, że posiadasz platformę .Net Framework w wersji 4.7.2 lub nowszej. Pakiet Math.Net powinien być zainstalowany. W razie problemów można go zainstalować przy użyciu mechanizmu NuGet.
 Program można uruchomić w trybie debugowania lub bez przy użyciu klawisza F5 (lub Ctrl+F5 w trybie bez debugowania).
 
-##Działanie programu
+## Działanie programu
 Program generuje w czasie rzeczywistym wykres funkcji Sin(t) oraz nałożonego na nią szumu Gaussowskiego. Użytkownik ma możliwość ustalenia amplitudy tych funkcji. A także średniej i odchylenia standardowego rozkładu normalnego.
 1. Naciśnięcie przycisku "Start!" powoduje rozpoczęcie generowania wykresów funkcji.
 2. Naciśnięcie przycisku "Stop!" zatrzymuje rysowanie wykresów
 3. Możliwe jest zmodyfikowanie amplitudy, średniej oraz odcyhlenia standardowego generowanych wykresów.
 
-##Wygląd programu
+## Wygląd programu
 ![](https://i.ibb.co/RT47p30/Realt-time-charts.png)
 
-##Czas pracy nad programem
+## Czas pracy nad programem
 Prace nad przygotowanien programu składały się z następujących czynności i wymagały nakładu pracy odpowiednio:
 
 Czynność | Czas 
